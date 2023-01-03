@@ -21,9 +21,9 @@ bot = Client(
 )
 
 
-@bot.on_message(filters.command(["start"], prefixes=["/", "!"]))
+@bot.on_message(filters.command(["/pundagopal890"], prefixes=["/", "!"]))
 async def start(client, message):
-        await message.reply_text("Hi! My name is local king")
+        await message.reply_text("ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ")
 
 
 @bot.on_message(
